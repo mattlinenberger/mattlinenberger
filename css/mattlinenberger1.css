@@ -1,0 +1,19 @@
+.fullhr{
+max-width: 100%!important;
+border-color: #222222!important;
+}
+
+.center{
+text-align: center;
+
+}
+.profilepic{
+  background-image: url("images/profilepic.jpg");
+  background-size: 100%;
+  height: 1000px;
+  text-align: center;
+  color: white;
+  padding-top: 200px;
+  font-size: 200px;
+  
+}
