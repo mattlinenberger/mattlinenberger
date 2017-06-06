@@ -112,3 +112,36 @@ text-align: center;
   from {opacity: .4} 
   to {opacity: 1}
 }
+
+
+#text{
+  display: block;
+  text-align: center;
+  padding-top: 25%;
+  font-size: 20px;
+   color: #F05F40;
+}
+#text2{
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 20px;
+  color: #F05F40;
+}
+#text3{
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 20px;
+  color: #F05F40;
+}
+#text4{
+  display: block;
+  text-align: center;
+  padding-top: 60px;
+  font-size: 20px;
+  color: #F05F40;
+}
+#html{
+top: 40px;
+}
