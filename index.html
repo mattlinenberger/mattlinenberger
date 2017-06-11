@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -32,6 +31,7 @@
 </head>
 
 <body id="page-top" class="container-fluid">
+    <div class="row">
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -62,10 +62,11 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
+    
     <header>
-        <div class="header-content">
+        <div class="header-content container-fluid">
             <div class="header-content-inner">
-                <img src="img/header.jpg" class="img-circle " alt="profilepic" width="400" height="400">
+                <img src="img/header.jpg" class="img-circle " alt="profilepic" width="200" height="200">
 
                 <h1 id="homeHeading">Matt Linenberger</h1>
                 <h3 class="text-center">Web Developer</h3>
@@ -110,6 +111,7 @@
         <div class="container">
             <div class="row">
                 <h1 class="text-center">SKILLS</h1>
+                <p class="text-center">(Click on a skill to see a description)</p>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
                     <hr class="fullhr">
                     <h2 class="section-heading">Languages</h2>
@@ -229,7 +231,7 @@
                 <div class="row text-center">
                     <div class="dropdown text-center">
                         <!-- drop down button activation-->
-                        <div id="dropBtn" class="dropbtn">Single-Scrolling Webpage - HTML/CSS/Bootstrap</div>
+                        <div id="dropBtn" class="dropbtn">Single-Scrolling Webpage - HTML/CSS/Bootstrap<br><span class="glyphicon glyphicon-resize-vertical"></span></div>
                         <div id="myDropdown" class="dropdown-content">
                             <br>
                             <!--First Project Description-->
@@ -240,13 +242,13 @@
                             </p>
                             <br>
                             <!-- First Project Thumbnails-->
-                            <img id="myImg" class="thumb" src="img/portfolio/fullsize/bb1.png" alt="blahblahblablahblabhla">
-                            <img id="myImg2" class="thumb" src="img/portfolio/fullsize/bb2.png">
+                            <img id="myImg" class="thumb" src="img/portfolio/fullsize/bb1.png" alt="1">
+                            <img id="myImg2" class="thumb" src="img/portfolio/fullsize/bb2.png " alt="2">
                             <br>
-                            <img id="myImg3" class="thumb" src="img/portfolio/fullsize/bb3.png">
-                            <img id="myImg4" class="thumb" src="img/portfolio/fullsize/bb4.png">
-                            <img id="myImg05" class="thumb" src="img/portfolio/fullsize/bb5.png">
-                            <img id="myImg06" class="thumb" src="img/portfolio/fullsize/bb6.png">
+                            <img id="myImg3" class="thumb" src="img/portfolio/fullsize/bb3.png" alt="3">
+                            <img id="myImg4" class="thumb" src="img/portfolio/fullsize/bb4.png" alt="4">
+                            <img id="myImg05" class="thumb" src="img/portfolio/fullsize/bb5.png" alt="5">
+                            <img id="myImg06" class="thumb" src="img/portfolio/fullsize/bb6.png" alt="6">
                             <br>
                             <br>
                             <!--Modal-->
@@ -264,7 +266,7 @@
                                 <!-- Modal Content (The Image) -->
                                 <img class="modal-content" id="img02">
                                 <!-- Modal Caption (Image Text) -->
-                                <div id="caption"></div>
+                                <div id="caption2"></div>
                             </div>
                             <div id="myModal3" class="modal">
                                 <!-- The Close Button -->
@@ -272,7 +274,7 @@
                                 <!-- Modal Content (The Image) -->
                                 <img class="modal-content" id="img03">
                                 <!-- Modal Caption (Image Text) -->
-                                <div id="caption"></div>
+                                <div id="caption3"></div>
                             </div>
                             <div id="myModal4" class="modal">
                                 <!-- The Close Button -->
@@ -280,7 +282,7 @@
                                 <!-- Modal Content (The Image) -->
                                 <img class="modal-content" id="img04">
                                 <!-- Modal Caption (Image Text) -->
-                                <div id="caption"></div>
+                                <div id="caption4"></div>
                             </div>
                             <div id="myModal05" class="modal">
                                 <!-- The Close Button -->
@@ -288,7 +290,7 @@
                                 <!-- Modal Content (The Image) -->
                                 <img class="modal-content" id="img005">
                                 <!-- Modal Caption (Image Text) -->
-                                <div id="caption"></div>
+                                <div id="caption5"></div>
                             </div>
                             <div id="myModal06" class="modal">
                                 <!-- The Close Button -->
@@ -296,16 +298,17 @@
                                 <!-- Modal Content (The Image) -->
                                 <img class="modal-content" id="img006">
                                 <!-- Modal Caption (Image Text) -->
-                                <div id="caption"></div>
+                                <div id="caption6"></div>
                             </div>
                         </div>
                     </div>
                 </div>
-
+                <br>
+                <br>
                 <!--Start of second project -->
                 <div class="row text-center">
                     <div class="dropdown2 text-center">
-                        <div id="dropBtn2" class="dropbtn2">Magazine/Comic - Dreamweaver</div>
+                        <div id="dropBtn2" class="dropbtn2">Magazine/Comic - Dreamweaver<br><span class="glyphicon glyphicon-resize-vertical"></span></div>
                         <div id="myDropdown2" class="dropdown-content2">
                             <!--Second Project Description-->
                             <br>
@@ -314,20 +317,21 @@
                             </p>
                             <br>
                             <!--Second Project Thumbnails-->
-                            <img id="myImg5" src="img/portfolio/fullsize/c1.png" class="thumb">
-                            <img id="myImg6" src="img/portfolio/fullsize/c2.png" class="thumb">
+                            <img id="myImg5" src="img/portfolio/fullsize/c1.png" class="thumb"  alt="This is the start of the Comic/Magazine. Once the user clicks on a superhero name
+                            it will take you to their page, where it continues like an e-book.">
+                            <img id="myImg6" src="img/portfolio/fullsize/c2.png" class="thumb"alt="Each page has a page number, and 'Back'/'Next' option. ">
                             <br>
-                            <img id="myImg7" src="img/portfolio/fullsize/c3.png" class="thumb">
-                            <img id="myImg8" src="img/portfolio/fullsize/c4.png" class="thumb">
-                            <img id="myImg9" src="img/portfolio/fullsize/c5.png" class="thumb">
-                            <img id="myImg10" src="img/portfolio/fullsize/c6.png" class="thumb">
+                            <img id="myImg7" src="img/portfolio/fullsize/c3.png" class="thumb"alt="9">
+                            <img id="myImg8" src="img/portfolio/fullsize/c4.png" class="thumb"alt="10">
+                            <img id="myImg9" src="img/portfolio/fullsize/c5.png" class="thumb"alt="11">
+                            <img id="myImg10" src="img/portfolio/fullsize/c6.png" class="thumb"alt="12">
                             <div id="myModal5" class="modal">
                                 <!-- The Close Button -->
                                 <span class="close" onclick="document.getElementById('myModal5').style.display='none'">&times;</span>
                                 <!-- Modal Content (The Image) -->
                                 <img class="modal-content" id="img05">
                                 <!-- Modal Caption (Image Text) -->
-                                <div id="caption"></div>
+                                <div id="caption7"></div>
                             </div>
                             <div id="myModal6" class="modal">
                                 <!-- The Close Button -->
@@ -335,7 +339,7 @@
                                 <!-- Modal Content (The Image) -->
                                 <img class="modal-content" id="img06">
                                 <!-- Modal Caption (Image Text) -->
-                                <div id="caption"></div>
+                                <div id="caption8"></div>
                             </div>
                             <div id="myModal7" class="modal">
                                 <!-- The Close Button -->
@@ -343,7 +347,7 @@
                                 <!-- Modal Content (The Image) -->
                                 <img class="modal-content" id="img07">
                                 <!-- Modal Caption (Image Text) -->
-                                <div id="caption"></div>
+                                <div id="caption9"></div>
                             </div>
                             <div id="myModal8" class="modal">
                                 <!-- The Close Button -->
@@ -351,7 +355,7 @@
                                 <!-- Modal Content (The Image) -->
                                 <img class="modal-content" id="img08">
                                 <!-- Modal Caption (Image Text) -->
-                                <div id="caption"></div>
+                                <div id="caption10"></div>
                             </div>
                             <div id="myModal9" class="modal">
                                 <!-- The Close Button -->
@@ -359,7 +363,7 @@
                                 <!-- Modal Content (The Image) -->
                                 <img class="modal-content" id="img09">
                                 <!-- Modal Caption (Image Text) -->
-                                <div id="caption"></div>
+                                <div id="caption11"></div>
                             </div>
                             <div id="myModal10" class="modal">
                                 <!-- The Close Button -->
@@ -367,17 +371,65 @@
                                 <!-- Modal Content (The Image) -->
                                 <img class="modal-content" id="img10">
                                 <!-- Modal Caption (Image Text) -->
-                                <div id="caption"></div>
+                                <div id="caption12"></div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- End of Second Project -->
 
-
+                 <!--Start of Third project -->
                 <div class="row text-center">
                     <div class="dropdown3 text-center">
-                        <div id="dropBtn3" class="dropbtn3">project3</div>
+                        <div id="dropBtn3" class="dropbtn3">Where to Eat? - Java<br><span class="glyphicon glyphicon-resize-vertical"></span></div>
+                        <div id="myDropdown3" class="dropdown-content3">
+                            <!--Third Project Description-->
+                            <br>
+                            <h1> Where to Eat?</h1>
+                            <p>This is a simple app, that helps you decide where to eat.
+                            </p>
+                            <br>
+                            <!--Third Project Thumbnails-->
+                            <img id="myImg11" src="img/portfolio/fullsize/wheretoeat2.png" class="thumb" alt="Choose from 3 styles of food, American,Mexican, and Chinese">
+                            <img id="myImg12" src="img/portfolio/fullsize/wheretoeat3.png" class="thumb"alt="Once you have selected your style of food, your choice gets randomized using 
+                            a String array, and Java's random util. giving you a quick and easy solution to your indecisiveness.">
+                            <img id="myImg13" src="img/portfolio/fullsize/wheretoeat1.png" class="thumb"alt="Here is the code if you are interested. Open in a new tab for easier readability.">
+                           
+                            <div id="myModal11" class="modal">
+                                <!-- The Close Button -->
+                                <span class="close" onclick="document.getElementById('myModal11').style.display='none'" >&times;</span>
+                                <!-- Modal Content (The Image) -->
+                                <img class="modal-content" id="img11">
+                                <!-- Modal Caption (Image Text) -->
+                                <div id="caption13"></div>
+                            </div>
+                            <div id="myModal12" class="modal">
+                                <!-- The Close Button -->
+                                <span class="close" onclick="document.getElementById('myModal12').style.display='none'">&times;</span>
+                                <!-- Modal Content (The Image) -->
+                                <img class="modal-content" id="img12">
+                                <!-- Modal Caption (Image Text) -->
+                                <div id="caption14"></div>
+                            </div>
+                            <div id="myModal13" class="modal">
+                                <!-- The Close Button -->
+                                <span class="close" onclick="document.getElementById('myModal13').style.display='none'">&times;</span>
+                                <!-- Modal Content (The Image) -->
+                                <img class="modal-content" id="img13">
+                                <!-- Modal Caption (Image Text) -->
+                                <div id="caption15"></div>
+                            </div>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Second Project -->
+
+
+                <!--<div class="row text-center">
+                    <div class="dropdown3 text-center">
+                        <div id="dropBtn3" class="dropbtn3">project3<br><span class="glyphicon glyphicon-resize-vertical"></span></div>
                         <div id="myDropdown3" class="dropdown-content3">
                             <img src="img/portfolio/fullsize/bb6.png">
                             <img src="img/portfolio/fullsize/bb5.png">
@@ -385,7 +437,7 @@
                             <img src="img/portfolio/fullsize/bb3.png">
                         </div>
                     </div>
-                </div>
+                </div>-->
 
 
             </div>
@@ -434,6 +486,7 @@
     <script src="js/textappear.js"></script>
     <script src="js/dropdown.js"></script>
     <script src="js/modal.js"></script>
+    </div>
 </body>
 
 
