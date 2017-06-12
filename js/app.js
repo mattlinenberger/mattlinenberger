@@ -1,11 +1,67 @@
-console.log('Building Modals...');
+console.log('Building Modal...');
 
 const arrayModals = [];
 
 /* array push */
 arrayModals.push({
-  idMain: 'modalBobsBurgers',
+  idMain: 'modal',
   idImage1: 'imageBobsBurgers1',
+});
+arrayModals.push({
+  idMain: 'modal',
+  idImage1: 'imageBobsBurgers2',
+});
+arrayModals.push({
+  idMain: 'modal',
+  idImage1: 'imageBobsBurgers3',
+});
+arrayModals.push({
+  idMain: 'modal',
+  idImage1: 'imageBobsBurgers4',
+});
+arrayModals.push({
+  idMain: 'modal',
+  idImage1: 'imageBobsBurgers5',
+});
+arrayModals.push({
+  idMain: 'modal',
+  idImage1: 'imageBobsBurgers6',
+});
+arrayModals.push({
+  idMain: 'modal',
+  idImage1: 'imageComic1',
+});
+arrayModals.push({
+  idMain: 'modal',
+  idImage1: 'imageComic2',
+});
+arrayModals.push({
+  idMain: 'modal',
+  idImage1: 'imageComic3',
+});
+arrayModals.push({
+  idMain: 'modal',
+  idImage1: 'imageComic4',
+});
+arrayModals.push({
+  idMain: 'modal',
+  idImage1: 'imageComic5',
+});
+arrayModals.push({
+  idMain: 'modal',
+  idImage1: 'imageComic6',
+});
+arrayModals.push({
+  idMain: 'modal',
+  idImage1: 'imageWhereToEat1',
+});
+arrayModals.push({
+  idMain: 'modal',
+  idImage1: 'imageWhereToEat2',
+});
+arrayModals.push({
+  idMain: 'modal',
+  idImage1: 'imageWhereToEat3',
 });
 
 /* loop through the array, build the modal for each item in the array */
