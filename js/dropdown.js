@@ -17,9 +17,9 @@ function drop2() {
 
 
 //third drop button
-document.getElementById("dropBtn3").onclick = function() {drop3()};
+// document.getElementById("dropBtn3").onclick = function() {drop3()};
 
 /* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
-function drop3() {
-    document.getElementById("myDropdown3").classList.toggle("show3");
-}
+// function drop3() {
+//     document.getElementById("myDropdown3").classList.toggle("show3");
+// }
