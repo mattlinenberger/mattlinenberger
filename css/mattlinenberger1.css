@@ -173,6 +173,9 @@ top: 40px;
     text-decoration: none;
     display: block;
 }
+.dropdown-content a:hover{
+    color: green;
+}
 
 .show {display:block;}
 
@@ -186,29 +189,6 @@ top: 40px;
 .hov:hover{
     opacity: 0.4;
 }
-/* Style the Image Used to Trigger the Modal */
-#myImg , #myImg2 , #myImg3 , #myImg4 , #myImg5 , #myImg6, #myImg7, #myImg8, #myImg9, #myImg10, #myImg05, #myImg06,
-#myImg11, #myImg12, #myImg13{
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-#myImg:hover {opacity: 0.4;}
-#myImg2:hover {opacity: 0.4;}
-#myImg3:hover {opacity: 0.4;}
-#myImg4:hover {opacity: 0.4;}
-#myImg05:hover {opacity: 0.4;}
-#myImg06:hover {opacity: 0.4;}
-#myImg5:hover {opacity: 0.4;}
-#myImg6:hover {opacity: 0.4;}
-#myImg7:hover {opacity: 0.4;}
-#myImg8:hover {opacity: 0.4;}
-#myImg9:hover {opacity: 0.4;}
-#myImg10:hover {opacity: 0.4;}
-#myImg11:hover {opacity: 0.4;}
-#myImg12:hover {opacity: 0.4;}
-#myImg13:hover {opacity: 0.4;}
 
 /* The Modal (background) */
 .modal {
@@ -294,4 +274,10 @@ top: 40px;
 .whitehr{
     max-width: 100%!important;
     border-color: white;
+}
+.modalfont{
+    font-family: 'Handlee', cursive;
+}
+.highlight:hover{
+   color: #F05F40;;
 }
