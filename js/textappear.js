@@ -19,10 +19,4 @@ function appear4(name4){
         console.log(name4);
 }
 
-// function disappear(blank){
-//      document.getElementById("text4").innerHTML = blank;
-//         document.getElementById("text3").innerHTML = blank;
-//         document.getElementById("text2").innerHTML = blank;
-//         document.getElementById("text").innerHTML = blank;
-       
-// }
+
