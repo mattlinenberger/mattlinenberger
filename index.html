@@ -17,6 +17,7 @@
         rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic'
         rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
     <!-- Plugin CSS -->
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
     <!-- Theme CSS -->
@@ -111,6 +112,7 @@
             <div class="container">
                 <div class="row">
                     <h1 class="text-center">SKILLS</h1>
+                    <hr>
                     <p class="text-center">(Click on a skill to see a description)</p>
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
                         <hr class="fullhr">
@@ -125,24 +127,25 @@
                         <div class="service-box">
                             <i class="fa fa-4x fa-language text-primary sr-icons"></i>
                             <br>
-                            <h3 id="html" onclick="appear('Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications. With Cascading Style Sheets (CSS) and JavaScript it forms a triad of cornerstone technologies for the World Wide Web.')"
+                            <h3 id="html" class="highlight" onclick="appear('Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications. With Cascading Style Sheets (CSS) and JavaScript it forms a triad of cornerstone technologies for the World Wide Web.')"
                                 style="cursor: pointer;">HTML/CSS</h3>
                             <br>
-                            <h3 id="php" onclick="appear('PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML.')"
+                            <h3 id="php" class="highlight" onclick="appear('PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML.')"
                                 style="cursor: pointer;">PHP</h3>
                             <br>
-                            <h3 id="java" onclick="appear('Java is a general-purpose computer programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible.')"
+                            <h3 id="java" class="highlight" onclick="appear('Java is a general-purpose computer programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible.')"
                                 style="cursor: pointer;">JAVA</h3>
                             <br>
-                            <h3 id="c#" onclick="appear('C# is a multi-paradigm programming language encompassing strong typing, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines.  C# is one of the programming languages designed for the Common Language Infrastructure.')"
+                            <h3 id="c#" class="highlight" onclick="appear('C# is a multi-paradigm programming language encompassing strong typing, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines.  C# is one of the programming languages designed for the Common Language Infrastructure.')"
                                 style="cursor: pointer;">C#</h3>
                             <br>
-                            <h3 id="javascript" onclick="appear('Javascript is an object-oriented computer programming language commonly used to create interactive effects within web browsers.')"
+                            <h3 id="javascript" class="highlight" onclick="appear('Javascript is an object-oriented computer programming language commonly used to create interactive effects within web browsers.')"
                                 style="cursor: pointer;">JAVASCRIPT</h3>
                         </div>
                     </div>
                     <div class=" col-md-6 col-xs-6 text-center">
-                        <p id="text" onclick="disappear(' ')" style="cursor: pointer;"></p>
+                        <p id="text" >Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications.
+                             With Cascading Style Sheets (CSS) and JavaScript it forms a triad of cornerstone technologies for the World Wide Web.</p>
                     </div>
                 </div>
                 <div class="row">
@@ -156,15 +159,18 @@
                     <div class="col-md-6 col-xs-6 text-center">
                         <div class="service-box">
                             <i class="fa fa-4x fa-github text-primary sr-icons"></i>
-                            <h3 id="git" onclick="appear2('Git is a version control system (VCS) for tracking changes in computer files and coordinating work on those files among multiple people. It is primarily used for source code management in software development, but it can be used to keep track of changes in any set of files. As a distributed revision control system it is aimed at speed, data integrity, and support for distributed, non-linear workflows.')"
+                            <h3 id="git" class="highlight" onclick="appear2('Git is a version control system (VCS) for tracking changes in computer files and coordinating work on those files among multiple people. It is primarily used for source code management in software development, but it can be used to keep track of changes in any set of files. As a distributed revision control system it is aimed at speed, data integrity, and support for distributed, non-linear workflows.')"
                                 style="cursor: pointer;">GIT</h3>
                         </div>
                     </div>
-                    <div class="col-md-6 col-xs-6 text-center">
-                        <p id="text2" onclick="disappear(' ')" style="cursor: pointer;"></p>
-                    </div>
+                     <div class="col-md-6 col-xs-6 text-center">
+                    <p id="text3">
+                        Git is a version control system (VCS) for tracking changes in computer files and coordinating work on those files among multiple people. 
+                        It is primarily used for source code management in software development, but it can be used to keep track of changes in any set of files. 
+                        As a distributed revision control system it is aimed at speed, data integrity, and support for distributed, non-linear workflows.
+                    </p>
                 </div>
-
+                </div>
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
                         <hr class="fullhr">
@@ -176,16 +182,17 @@
                     <div class="col-md-6 col-xs-6 text-center">
                         <div class="service-box">
                             <i class="fa fa-4x fa-wrench text-primary sr-icons"></i>
-                            <h3 id="eclipse" onclick="appear3('Eclipse is an integrated development environment (IDE) used in computer programming, and is the most widely used Java IDE. It contains a base workspace and an extensible plug-in system for customizing the environment.')"
+                            <h3 id="eclipse"  class="highlight"onclick="appear3('Eclipse is an integrated development environment (IDE) used in computer programming, and is the most widely used Java IDE. It contains a base workspace and an extensible plug-in system for customizing the environment.')"
                                 style="cursor: pointer;">ECLIPSE</h3>
-                            <h3 id="brackets" onclick="appear3('Brackets is an open-source editor written in HTML, CSS, and JavaScript with a primary focus on web development. It was created by Adobe Systems, licensed under the MIT License, and is currently maintained on GitHub. Brackets is available for cross-platform download on Mac, Windows, and Linux.')"
+                            <h3 id="brackets" class="highlight" onclick="appear3('Brackets is an open-source editor written in HTML, CSS, and JavaScript with a primary focus on web development. It was created by Adobe Systems, licensed under the MIT License, and is currently maintained on GitHub. Brackets is available for cross-platform download on Mac, Windows, and Linux.')"
                                 style="cursor: pointer;">BRACKETS</h3>
-                            <h3 id="visualstudio" onclick="appear3('Microsoft Visual Studio is an integrated development environment (IDE) from Microsoft. It is used to develop computer programs for Microsoft Windows, as well as web sites, web apps, web services and mobile apps. Visual Studio uses Microsoft software development platforms such as Windows API, Windows Forms, Windows Presentation Foundation, Windows Store and Microsoft Silverlight. It can produce both native code and managed code.')"
+                            <h3 id="visualstudio" class="highlight" onclick="appear3('Microsoft Visual Studio is an integrated development environment (IDE) from Microsoft. It is used to develop computer programs for Microsoft Windows, as well as web sites, web apps, web services and mobile apps. Visual Studio uses Microsoft software development platforms such as Windows API, Windows Forms, Windows Presentation Foundation, Windows Store and Microsoft Silverlight. It can produce both native code and managed code.')"
                                 style="cursor: pointer;">VISUAL STUDIO CODE</h3>
                         </div>
                     </div>
                     <div class="col-md-6 col-xs-6 text-center">
-                        <p id="text3" onclick="disappear(' ')" style="cursor: pointer;"></p>
+                        <p id="text3" >Eclipse is an integrated development environment (IDE) used in computer programming, and is the most widely used Java IDE.
+                             It contains a base workspace and an extensible plug-in system for customizing the environment.</p>
 
                     </div>
                 </div>
@@ -201,17 +208,20 @@
                     <div class="col-md-6 col-xs-6 text-center">
                         <div class="service-box">
                             <i class="fa fa-4x fa-pencil text-primary sr-icons"></i>
-                            <h3 id="eclipse" onclick="appear4('Adobe Illustrator is a vector graphics editor developed and marketed by Adobe Systems. The latest version, Illustrator CC 2017, is the twenty-first generation in the product line.')"
+                            <h3 id="eclipse"  class="highlight"onclick="appear4('Adobe Illustrator is a vector graphics editor developed and marketed by Adobe Systems. The latest version, Illustrator CC 2017, is the twenty-first generation in the product line.')"
                                 style="cursor: pointer;">ILLUSTRATOR</h3>
-                            <h3 id="eclipse" onclick="appear4('An image editing software developed and manufactured by Adobe Systems Inc. Photoshop is considered one of the leaders in photo editing software. The software allows users to manipulate, crop, resize, and correct color on digital photos.')"
+                            <h3 id="eclipse" class="highlight" onclick="appear4('An image editing software developed and manufactured by Adobe Systems Inc. Photoshop is considered one of the leaders in photo editing software. The software allows users to manipulate, crop, resize, and correct color on digital photos.')"
                                 style="cursor: pointer;">PHOTOSHOP</h3>
-                            <h3 id="eclipse" onclick="appear4('Adobe InDesign is a desktop publishing software application produced by Adobe Systems. It can be used to create works such as posters, flyers, brochures, magazines, newspapers, presentations, books and ebooks.')"
+                            <h3 id="eclipse" class="highlight" onclick="appear4('Adobe InDesign is a desktop publishing software application produced by Adobe Systems. It can be used to create works such as posters, flyers, brochures, magazines, newspapers, presentations, books and ebooks.')"
                                 style="cursor: pointer;">IN-DESIGN</h3>
                         </div>
                     </div>
                     <div class="col-md-6 col-xs-6 text-center">
                         <div>
-                            <p id="text4" onclick="disappear(' ')" style="cursor: pointer;"></p>
+                            <p id="text4">
+                                Adobe Illustrator is a vector graphics editor developed and marketed by Adobe Systems.
+                                 The latest version, Illustrator CC 2017, is the twenty-first generation in the product line.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -234,7 +244,7 @@
                             <div id="myDropdown" class="dropdown-content">
                                 <br>
                                 <!--First Project Description-->
-                                <h1>Bob's Burgers</h1>
+                                <h1 class="modalfont">Bob's Burgers</h1>
                                 <p>This is a single scrolling webpage I created. All the content is on one page with links on
                                     each section to take you back to the top of the page. It has basic information on the
                                     show, and the cast members involved, including a gallery and character section, with
@@ -250,7 +260,7 @@
                                 <img id="imageBobsBurgers5" class="thumb hov" src="img/portfolio/fullsize/bb5.png" alt="5">
                                 <img id="imageBobsBurgers6" class="thumb hov" src="img/portfolio/fullsize/bb6.png" alt="6">
                                 <hr class="whitehr">
-                                <h1> DC Comics</h1>
+                                <h1 class="modalfont"> DC Comics</h1>
                                 <p>This project I used Dreamweaver to create an e-book style.
                                 </p>
 
@@ -261,7 +271,7 @@
                                 <img id="imageComic5" src="img/portfolio/fullsize/c5.png" class="thumb hov" alt="11">
                                 <img id="imageComic6" src="img/portfolio/fullsize/c6.png" class="thumb hov" alt="12">
                                 <hr class="whitehr">
-                                <h1> Where to Eat?</h1>
+                                <h1 class="modalfont"> Where to Eat?</h1>
                                 <p>This is a simple app created with Java, that helps you decide where to eat. I used a string
                                     arrray and java's random utility to give a random option from the string array, giving
                                     you an option.
@@ -271,6 +281,19 @@
                             a String array, and Java's random util. giving you a quick and easy solution to your indecisiveness.">
                                 <img id="imageWhereToEat3" src="img/portfolio/fullsize/wheretoeat1.png" class="thumb hov" alt="view code on github.">
                                 <a href="https://github.com/mattlinenberger/WhereToEat/blob/master/WhereToEat.java">View Code on GitHub.</a>
+                                <hr class="whitehr">
+                                <h1 class="modalfont">Slot Machine</h1>
+                                <p>This is a slot machine game, created in Java. This game was created to learn threads and
+                                    multi-threading. It runs like a normal slot machine, the images change at different speeds,
+                                    when the play button is pressed. You can use the "stomp" button to stop all buttons at
+                                    once, or the individual "stop" buttons for the corresponding image.
+                                </p>
+
+                                <img id="imageSlotMachine1" src="img/portfolio/fullsize/slot1.png" class="thumb hov" alt="7">
+                                <img id="imageSlotMachine2" src="img/portfolio/fullsize/slot2.png" class="thumb hov" alt="8">
+                                <img id="imageSlotMachine3" src="img/portfolio/fullsize/slot3.png" class="thumb hov" alt="">
+                                <img id="imageSlotMachine4" src="img/portfolio/fullsize/slot4.png" class="thumb hov" alt="">
+                                <a href="https://github.com/mattlinenberger/SlotMachine/tree/master/src">View Code on GitHub.</a>
                                 <br>
                                 <br>
                                 <!--Modal-->
