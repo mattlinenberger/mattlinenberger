@@ -79,6 +79,62 @@ arrayModals.push({
   idMain: 'modal',
   idImage1: 'imageSlotMachine4',
 });
+arrayModals.push({
+  idMain: 'modal',
+  idImage1: 'imagecrm1',
+});
+arrayModals.push({
+  idMain: 'modal',
+  idImage1: 'imagecrm2',
+});
+arrayModals.push({
+  idMain: 'modal',
+  idImage1: 'imagecrm3',
+});
+arrayModals.push({
+  idMain: 'modal',
+  idImage1: 'imagecrm4',
+});
+arrayModals.push({
+  idMain: 'modal',
+  idImage1: 'imagecrm5',
+});
+arrayModals.push({
+  idMain: 'modal',
+  idImage1: 'imagecrm6',
+});
+arrayModals.push({
+  idMain: 'modal',
+  idImage1: 'imagecrm7',
+});
+arrayModals.push({
+  idMain: 'modal',
+  idImage1: 'imagecrm8',
+});
+arrayModals.push({
+  idMain: 'modal',
+  idImage1: 'imagecrm9',
+});
+arrayModals.push({
+  idMain: 'modal',
+  idImage1: 'imagecrm10',
+});
+arrayModals.push({
+  idMain: 'modal',
+  idImage1: 'imagecrm11',
+});
+arrayModals.push({
+  idMain: 'modal',
+  idImage1: 'imagecrm12',
+});
+arrayModals.push({
+  idMain: 'modal',
+  idImage1: 'imagecrm13',
+});
+arrayModals.push({
+  idMain: 'modal',
+  idImage1: 'imagecrm14',
+});
 
 /* loop through the array, build the modal for each item in the array */
 arrayModals
