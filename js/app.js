@@ -135,6 +135,22 @@ arrayModals.push({
   idMain: 'modal',
   idImage1: 'imagecrm14',
 });
+arrayModals.push({
+  idMain: 'modal',
+  idImage1: 'imagebf1',
+});
+arrayModals.push({
+  idMain: 'modal',
+  idImage1: 'imagebf2',
+});
+arrayModals.push({
+  idMain: 'modal',
+  idImage1: 'imagebf3',
+});
+arrayModals.push({
+  idMain: 'modal',
+  idImage1: 'imagebf4',
+});
 
 /* loop through the array, build the modal for each item in the array */
 arrayModals
